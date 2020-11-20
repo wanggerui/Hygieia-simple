@@ -2,7 +2,241 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="096f3b89-a96e-4ad3-8a83-71b23025fe5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/docker/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/docker/properties-builder.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/.github/CODEOWNERS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/.github/stale.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/.github/workflows/maven-pr-checks.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/.github/workflows/maven-snapshot-release.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/.sonarcloud.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/Dockerfile.build" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/MAINTAINERS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/changes/changes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/devops/.travis.settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/devops/checkstyle-suppressions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/devops/checkstyle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/devops/deploy-snapshot.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/devops/keys.gpg.enc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/devops/pmd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/devops/release.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/main/java/com/capitalone/dashboard/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/main/java/com/capitalone/dashboard/collector/DefaultGitHubClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/main/java/com/capitalone/dashboard/collector/GitHubClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/main/java/com/capitalone/dashboard/collector/GitHubCollectorTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/main/java/com/capitalone/dashboard/collector/GitHubSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/main/java/com/capitalone/dashboard/controller/GitHubController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/main/java/com/capitalone/dashboard/controller/PingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/main/java/com/capitalone/dashboard/model/GitHubParsed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/main/java/com/capitalone/dashboard/model/GitHubRateLimit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/main/java/com/capitalone/dashboard/model/GitHubRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/main/java/com/capitalone/dashboard/model/MergeEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/main/java/com/capitalone/dashboard/repository/GitHubRepoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/main/java/com/capitalone/dashboard/service/GitHubService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/main/java/com/capitalone/dashboard/service/GitHubServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/site/site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/site/xdoc/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/test/java/com/capitalone/dashboard/collector/DefaultGitHubClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/test/java/com/capitalone/dashboard/collector/GitHubCollectorTaskTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/github/src/test/java/com/capitalone/dashboard/model/GitHubRepoTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/.github/CODEOWNERS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/.github/stale.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/.github/workflows/maven-pr-checks.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/.github/workflows/maven-snapshot-release.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/.sonarcloud.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/Dockerfile.build" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/MAINTAINERS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/changes/changes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/devops/.travis.settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/devops/checkstyle-suppressions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/devops/checkstyle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/devops/deploy-snapshot.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/devops/keys.gpg.enc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/devops/pmd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/devops/release.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/main/java/com/capitalone/dashboard/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/main/java/com/capitalone/dashboard/collector/DefaultJiraClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/main/java/com/capitalone/dashboard/collector/FeatureCollectorTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/main/java/com/capitalone/dashboard/collector/FeatureSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/main/java/com/capitalone/dashboard/collector/JiraClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/main/java/com/capitalone/dashboard/collector/SprintFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/main/java/com/capitalone/dashboard/controller/PingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/main/java/com/capitalone/dashboard/model/Epic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/main/java/com/capitalone/dashboard/model/FeatureBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/main/java/com/capitalone/dashboard/model/FeatureCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/main/java/com/capitalone/dashboard/model/FeatureEpicResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/main/java/com/capitalone/dashboard/model/IssueResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/main/java/com/capitalone/dashboard/model/JiraMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/main/java/com/capitalone/dashboard/model/Sprint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/main/java/com/capitalone/dashboard/repository/FeatureBoardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/main/java/com/capitalone/dashboard/repository/FeatureCollectorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/main/java/com/capitalone/dashboard/utils/Utilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/site/site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/site/xdoc/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/java/com/capitalone/dashboard/collector/DefaultJiraClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/java/com/capitalone/dashboard/collector/FeatureCollectorTaskTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/java/com/capitalone/dashboard/collector/SprintFormatterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/java/com/capitalone/dashboard/common/TestUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/java/com/capitalone/dashboard/config/FongoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/java/com/capitalone/dashboard/config/TestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/java/com/capitalone/dashboard/utils/UtilitiesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/resources/collectors/featureCollector.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/resources/expected/boardasteam-expected.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/resources/expected/feature-epic-expected.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/resources/expected/feature-story-expected.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/resources/expected/scope-expected.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/resources/expected/scope-update-expected.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/resources/feature/feature.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/resources/response/boardsresponse-update-1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/resources/response/boardsresponse-update.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/resources/response/boardsresponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/resources/response/epicresponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/resources/response/issuerefreshresponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/resources/response/issueresponse-combo-update-1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/resources/response/issueresponse-combo-update.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/resources/response/issueresponse-combo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/resources/response/issueresponse-empty.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/resources/response/issueresponse-story.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/resources/response/issuetype.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/resources/response/projectresponse-update.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/resources/response/projectresponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/resources/response/teamresponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/resources/scope/scope.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/jira/src/test/resources/team/team.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/.github/CODEOWNERS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/.github/stale.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/.github/workflows/maven-pr-checks.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/.github/workflows/maven-snapshot-release.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/NOTICE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/RELEASE-NOTES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/docker/properties-builder.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/changes/changes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/changes/release-notes.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/devops/.travis.settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/devops/checkstyle-suppressions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/devops/checkstyle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/devops/deploy-snapshot.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/devops/pmd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/devops/release.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/docs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/docs/gpg-signing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/main/java/com/capitalone/dashboard/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/main/java/com/capitalone/dashboard/collector/DefaultSubversionClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/main/java/com/capitalone/dashboard/collector/SubversionClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/main/java/com/capitalone/dashboard/collector/SubversionCollectorTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/main/java/com/capitalone/dashboard/collector/SubversionSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/main/java/com/capitalone/dashboard/model/SubversionRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/main/java/com/capitalone/dashboard/repository/SubversionRepoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/site/site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/site/xdoc/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/test/java/com/capitalone/dashboard/ApacheProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/test/java/com/capitalone/dashboard/CommitBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/test/java/com/capitalone/dashboard/Sandbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/test/java/com/capitalone/dashboard/SvnserveProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/test/java/com/capitalone/dashboard/TestOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/test/java/com/capitalone/dashboard/TestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/test/java/com/capitalone/dashboard/WorkingCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/test/java/com/capitalone/dashboard/collector/DefaultSubversionClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/test/java/com/capitalone/dashboard/collector/SubversionCollectorTaskTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/test/java/com/capitalone/dashboard/collector/SubversionSettingsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/test/java/com/capitalone/dashboard/model/SubversionRepoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/test/resources/org/tmatesoft/svn/test/apache.config.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/test/resources/org/tmatesoft/svn/test/svnserve.config.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/subversion/src/test/resources/org/tmatesoft/svn/test/test.properties.template" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/src/app/dashboard/views/site.html" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/app/dashboard/views/site.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/.github/CODEOWNERS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/.github/stale.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/.github/workflows/maven-pr-checks.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/.github/workflows/maven-snapshot-release.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/.sonarcloud.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/Dockerfile.build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/MAINTAINERS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/changes/changes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/devops/.travis.settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/devops/checkstyle-suppressions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/devops/checkstyle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/devops/deploy-snapshot.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/devops/keys.gpg.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/devops/pmd.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/devops/release.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/collector/DefaultGitHubClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/collector/GitHubClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/collector/GitHubCollectorTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/collector/GitHubSettings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/controller/GitHubController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/controller/PingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/model/GitHubParsed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/model/GitHubRateLimit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/model/GitHubRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/model/MergeEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/repository/GitHubRepoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/service/GitHubService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/main/java/com/capitalone/dashboard/service/GitHubServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/site/site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/site/xdoc/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/test/java/com/capitalone/dashboard/collector/DefaultGitHubClientTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/test/java/com/capitalone/dashboard/collector/GitHubCollectorTaskTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/hygieia-scm-github-graphql-collector/src/test/java/com/capitalone/dashboard/model/GitHubRepoTests.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,13 +303,15 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="I:\Hygieia\hygieia-pro6\Hygieia\collector" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\Hygieia\hygieia-pro6\Hygieia\collector\subversion\src\main\resources" />
+      <recent name="I:\Hygieia\hygieia-pro6\Hygieia\collector\jira\src\main\resources" />
       <recent name="I:\Hygieia\Hygieia6\Hygieia\hygieia-scm-github-graphql-collector\src\main\resources" />
       <recent name="I:\Hygieia\hygieia-pro6\Hygieia" />
       <recent name="I:\Hygieia\hygieia-pro6\Hygieia\collector\hygieia-scm-github-collector\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\Hygieia\hygieia-pro6\Hygieia\collector" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -118,7 +354,7 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\admin\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -135,7 +371,9 @@
       <workItem from="1605746980922" duration="7351000" />
       <workItem from="1605772144375" duration="5777000" />
       <workItem from="1605778045712" duration="699000" />
-      <workItem from="1605832739502" duration="2545000" />
+      <workItem from="1605832739502" duration="7826000" />
+      <workItem from="1605841250243" duration="134000" />
+      <workItem from="1605841394735" duration="4585000" />
     </task>
     <task id="LOCAL-00001" summary="提交基础板-Hygieia">
       <created>1605674984075</created>
@@ -200,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605834597556</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="删除冗余数据">
+      <created>1605835336431</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605835336431</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +504,7 @@
     <MESSAGE value="测试UI展示数据是否正确4" />
     <MESSAGE value="测试UI展示数据是否正确5" />
     <MESSAGE value="删除冗余数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除冗余数据" />
+    <MESSAGE value="添加新项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加新项目" />
   </component>
 </project>
