@@ -131,7 +131,7 @@ feature.trendingQuery=trendinginfo
 
 
 
-# Trending Query:  Length of sprint week (not-required)
+#Trending Query:  Length of sprint week (not-required)
 #feature.sprintEndPrior=2
 
 #Scheduled Job prior minutes to recover data created during execution time (usually, 2 minutes is enough)
@@ -157,57 +157,57 @@ feature.jiraCredentials=MT*****************************Iz
 feature.deltaStartDate=2019-02-01T00:00:00.000000
 feature.masterStartDate=2019-02-01T00:00:00.000000
 
-# In Jira, general IssueType IDs are associated to various "issue"
-# attributes. However, there is one attribute which this collector's
-# queries rely on that change between different instantiations of Jira.
-# Please provide a String Name reference to your instance's IssueType for
-# the lowest level of Issues (e.g., "user story") specific to your Jira
-# instance.  Note:  You can retrieve your instance's IssueType Name
-# listings via the following URI:  https://[your-jira-domain-name]/rest/api/2/issuetype/
-# Multiple comma-separated values can be specified.
-# feature.jiraIssueTypeNames=Story,Epic,Task,Sub-task
+#In Jira, general IssueType IDs are associated to various "issue"
+#attributes. However, there is one attribute which this collector's
+#queries rely on that change between different instantiations of Jira.
+#Please provide a String Name reference to your instance's IssueType for
+#the lowest level of Issues (e.g., "user story") specific to your Jira
+#instance.  Note:  You can retrieve your instance's IssueType Name
+#listings via the following URI:  https://[your-jira-domain-name]/rest/api/2/issuetype/
+#Multiple comma-separated values can be specified.
+#feature.jiraIssueTypeNames=Story,Epic,Task,Sub-task
 feature.jiraIssueTypeNames=故事,缺陷,任务,子任务,Epic
 
 
 
-# In Jira, your instance will have its own custom field created for "sprint" or "timebox" details,
-# which includes a list of information.  This field allows you to specify that data field for your
-# instance of Jira. Note: You can retrieve your instance's sprint data field name
-# via the following URI, and look for a package name com.atlassian.greenhopper.service.sprint.Sprint;
-# your custom field name describes the values in this field:
-# https://[your-jira-domain-name]/rest/api/2/issue/[some-issue-name]
+#In Jira, your instance will have its own custom field created for "sprint" or "timebox" details,
+#which includes a list of information.  This field allows you to specify that data field for your
+#instance of Jira. Note: You can retrieve your instance's sprint data field name
+#via the following URI, and look for a package name com.atlassian.greenhopper.service.sprint.Sprint;
+#your custom field name describes the values in this field:
+#https://[your-jira-domain-name]/rest/api/2/issue/[some-issue-name]
 feature.jiraSprintDataFieldName=customfield_10001
 
 
-# In Jira, your instance will have its own custom field created for "super story" or "epic" back-end ID,
-# which includes a list of information.  This field allows you to specify that data field for your instance
-# of Jira.  Note:  You can retrieve your instance's epic ID field name via the following URI where your
-# queried user story issue has a super issue (e.g., epic) tied to it; your custom field name describes the
-# epic value you expect to see, and is the only field that does this for a given issue:
-# https://[your-jira-domain-name]/rest/api/2/issue/[some-issue-name]
+#In Jira, your instance will have its own custom field created for "super story" or "epic" back-end ID,
+#which includes a list of information.  This field allows you to specify that data field for your instance
+#of Jira.  Note:  You can retrieve your instance's epic ID field name via the following URI where your
+#queried user story issue has a super issue (e.g., epic) tied to it; your custom field name describes the
+#epic value you expect to see, and is the only field that does this for a given issue:
+#https://[your-jira-domain-name]/rest/api/2/issue/[some-issue-name]
 feature.jiraEpicIdFieldName=customfield_11800
 #feature.jiraEpicIdFieldName=customfield_10008
 #customfield_11800
 
-# In Jira, your instance will have its own custom field created for "story points"
-# This field allows you to specify that data field for your instance
-# of Jira.  Note:  You can retrieve your instance's storypoints ID field name via the following URI where your
-# queried user story issue has story points set on it; your custom field name describes the
-# story points value you expect to see:
-# https://[your-jira-domain-name]/rest/api/2/issue/[some-issue-name]
+#In Jira, your instance will have its own custom field created for "story points"
+#This field allows you to specify that data field for your instance
+#of Jira.  Note:  You can retrieve your instance's storypoints ID field name via the following URI where your
+#queried user story issue has story points set on it; your custom field name describes the
+#story points value you expect to see:
+#https://[your-jira-domain-name]/rest/api/2/issue/[some-issue-name]
 feature.jiraStoryPointsFieldName=customfield_10006
 
 
 
-# In Jira, your instance will have its own custom field created for "team"
-# This field allows you to specify that data field for your instance
-# of Jira.  Note:  You can retrieve your instance's team ID field name via the following URI where your
-# queried user story issue has team set on it; your custom field name describes the
-# team value you expect to see:
-# https://[your-jira-domain-name]/rest/api/2/issue/[some-issue-name]
+#In Jira, your instance will have its own custom field created for "team"
+#This field allows you to specify that data field for your instance
+#of Jira.  Note:  You can retrieve your instance's team ID field name via the following URI where your
+#queried user story issue has team set on it; your custom field name describes the
+#team value you expect to see:
+#https://[your-jira-domain-name]/rest/api/2/issue/[some-issue-name]
 feature.jiraTeamFieldName=
 
-# Set this to true if you use boards as team
+#Set this to true if you use boards as team
 #feature.jiraBoardAsTeam=false
 feature.jiraBoardAsTeam=true
 
@@ -246,20 +246,20 @@ java -jar D:\softwareback\devops\hygieia\Hygieia-3.0.2\collectors\build\jenkins\
 1.4	Scm仓库--	svn
  
 application.properties:
-# Database Name
+#Database Name
 dbname=dashboarddb
 
-# Database HostName - default is localhost
+#Database HostName - default is localhost
 dbhost=localhost
 
-# Database Port - default is 27017
+#Database Port - default is 27017
 dbport=27017
 
 
-# Logging File location
+#Logging File location
 #logging.file=./logs/subversion.log
 
-# Collector schedule (required)
+#Collector schedule (required)
 subversion.cron=*/30 * * * * ?
 #subversion.cron=0 0/5 * * * *
 #subversion.cron=0 */15 * * * *
@@ -267,7 +267,7 @@ subversion.cron=*/30 * * * * ?
 #注意下面这种地址不要配置，用户和口令也不要配置
 #subversion.host=https://10.45.136.230/svn/ZYN/HGARCH/branch/V1.0/code/personrecord
 
-# Maximum number of previous days from current date, when fetching commits
+#Maximum number of previous days from current date, when fetching commits
 subversion.commitThresholdDays=30
 
 启动：
